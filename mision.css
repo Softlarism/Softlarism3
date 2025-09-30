@@ -1,0 +1,148 @@
+/* Body */
+body {
+    background-color: #fefce8;
+    color: black;
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #ffe043;
+  font-family: Georgia, serif;
+  border-radius: 0 0 15px 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", serif;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.nav-link.active {
+    color: #431F05;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #ffce1b;
+  border-radius: 8px;
+}
+.logo img{
+    cursor: pointer;
+    transition: tranform 0.3s ease;
+    max-width: 150px;
+    width: 100%;
+}
+.logo img:hover{
+    transform: scale(1.05);
+}
+.titulo {
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+  font-size: 3rem;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+/* Cards  */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.card {
+    width: 450px;
+    min-height: 600px;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Borde de las cards con paleta */
+.card1 {
+    border: 5px solid #FFCE1B; /* Supernova 400 */
+}
+.card2 {
+    border: 5px solid #EFB303; /* Supernova 500 */
+}
+.card3 {
+    border: 5px solid #CE8900; /* Supernova 600 */
+}
+
+/* ===== Contenido de las cards ===== */
+.card-title {
+    font-size: 2rem;
+    font-family: Impact, sans-serif;
+    text-align: center;
+    color: #FFCE1B; /* Acento amarillo */
+}
+
+.card-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.card3 ul {
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Footer */
+.footer {
+  margin-top: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  padding: 20px;
+}

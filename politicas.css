@@ -1,0 +1,125 @@
+body {
+  background-color: #fefce8; /* amarillo claro */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* ====== HEADER ====== */
+.header {
+  background-color: #ffe043;
+  font-family: Georgia, serif;
+  border-radius: 0 0 15px 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.nav-item a,
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.nav-link.active {
+  color: #431F05;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background-color: #ffce1b;
+  border-radius: 8px;
+}
+
+.logo img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  max-width: 150px;
+  width: 100%;
+}
+.logo img:hover {
+  transform: scale(1.05);
+}
+
+/* ====== TÍTULO ====== */
+.titulo {
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+  font-size: 3rem;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+/* ====== CONTENIDO ====== */
+.contenido {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.contenido h3 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #2c2c2c;
+  border-left: 6px solid #ffce1b;
+  padding-left: 10px;
+}
+
+.contenido h4 {
+  font-size: 1.4rem;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.contenido ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.contenido ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 20px;
+}
+
+.contenido ul li::before {
+  content: "✔";
+  color: #ffce1b;
+  position: absolute;
+  left: 0;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  margin-top: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 20px;
+}
